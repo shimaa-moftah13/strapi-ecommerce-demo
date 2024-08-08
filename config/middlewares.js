@@ -31,3 +31,16 @@ module.exports = [
   'strapi::favicon',
   'strapi::public',
 ];
+// module.exports = ({ env }) => ({
+//   settings: {
+//     logger: {
+//       level: 'debug',
+//       exposeInContext: true,
+//       requests: true,
+//       output: {
+//         file: '/path/to/your/log/file.log',
+//       },
+//     },
+//   },
+// });
+
